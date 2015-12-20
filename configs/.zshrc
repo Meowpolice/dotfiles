@@ -13,7 +13,10 @@ alias en='~/scripts/encode'
 alias de='~/scripts/decode'
 alias irc='irssi --connect=chat.freenode.net'
 alias pesterchum='python ~/pesterchum/pesterchum/pesterchum.py'
-
-
+alias update='sudo pacman -Syu'
+alias todo='~/scripts/todo.sh'
+alias inf='~/scripts/info.sh'
+alias fsf='cat /pass/fsf'
+alias wlf='cat /pass/welovefine~'
 
 [ -n "$XTERM_VERSION" ] && transset-df -a >/dev/null

@@ -8,10 +8,10 @@ echo "alright cool"
 
 #Starting
 
-mv ~/dotfiles/wallpapers ~/.wallpapers
-mv ~/dotfiles/scripts ~/
-mv ~/dotfiles/configs/.Xresources ~/
-mv ~/dotfiles/configs/.zshrc ~/
+ln -s ~/dotfiles/wallpapers ~/.wallpapers
+ln -s ~/dotfiles/scripts ~/
+ln -s ~/dotfiles/configs/.Xresources ~/
+ln -s ~/dotfiles/configs/.zshrc ~/
 mkdir -p ~/.config/herbstluftwm/
-mv ~/dotfiles/configs/herbstluftwm/autostart ~/.config/herbstluftwm/
-mv ~/dotfiles/configs/herbstluftwm/panel.sh ~/.config/herbstluftwm/
+ln -s ~/dotfiles/configs/herbstluftwm/autostart ~/.config/herbstluftwm/
+ln -s ~/dotfiles/configs/herbstluftwm/panel.sh ~/.config/herbstluftwm/

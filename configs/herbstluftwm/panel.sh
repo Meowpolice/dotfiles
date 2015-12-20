@@ -14,7 +14,7 @@ panel_width=${geometry[2]}
 panel_height=16
 font="-*-fixed-medium-*-*-*-12-*-*-*-*-*-*-*"
 bgcolor='#1D1D1D'
-selbg=$(hc get window_border_active_color)
+selbg=$'#00CCFF'
 selfg='#101010'
 
 ####

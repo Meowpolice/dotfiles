@@ -1,43 +1,29 @@
-*foreground:#F3D6FF
-*background:#0B0B0B
-*cursorColor:#818181
+*.foreground:	#B7B7B7
+*.background:	#000000
+*.cursorColor:	#B7B7B7
 
+*.color0:	#2D2D2D
+*.color8:	#3B3B3B
 
+*.color1:	#6660CD
+*.color9:	#573ACA
 
-*color0:#191919
-*color8:#00ECFF
+*.color2:	#D1DD63
+*.color10:	#B6F32A
 
+*.color3:	#575E4B
+*.color11:	#4E4E44
 
+*.color4:	#7989ED
+*.color12:	#526CFF
 
-*color1:#272727
-*color9:#00ABDC
+*.color5:	#AF49E3
+*.color13:	#CD5ACE
 
+*.color6:	#2D2D2D
+*.color14:	#381C7B
 
+*.color7:	#B3B3B3
+*.color15:	#FFFFFF
 
-*color3:#565656
-*color11:#0065FF
-
-
-
-*color4:#7B7B7B
-*color12:#00DFFF
-
-
-
-*color5:#A5A5A5
-*color13:#74FBFF
-
-
-
-*color6:#C5C5C5
-*color14:#008CF9
-
-
-
-*color7:#E9E9E9
-*color15:#FF0050
-
-
-*faceName: creep
-xterm*utf8: 1
-xterm*borderWidth: 0
+*.faceName:	Creep
