@@ -1,3 +1,0 @@
-mon=25
-echo $mon > cash
-
