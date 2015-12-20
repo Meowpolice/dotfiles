@@ -1,2 +1,2 @@
 #run compton in background
-compton -b
+compton --config ~/.config/compton/compton.conf -b
