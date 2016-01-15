@@ -14,7 +14,7 @@ User=$USER
 Home=$HOME
 Shll=$SHELL
 			    
-echo -e "${Purp}    ██       ${Cyan}OS:${Nc} 		"$OSys"" 
+echo -e "${Purp}    ██       ${Cyan}OS:${Nc} 	         "$OSys"" 
 echo -e "${Purp}   ████      ${Cyan}Kernel:${Nc}  		 "$Kern""
 echo -e "${Purp}   █▒██      ${Cyan}Machine:${Nc}		 "$Mchn""
 echo -e "${Purp}    ████     ${Cyan}Uptime:${Nc}		 "$UpTm""
