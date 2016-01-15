@@ -14,12 +14,12 @@ User=$USER
 Home=$HOME
 Shll=$SHELL
 			    
-echo -e "${Purp}        /|${Cyan}OS:${Nc} 		"$OSys"" 
-echo -e "${Purp}       / |${Cyan}Kernel:${Nc}  	"$Kern""
-echo -e "${Purp}      /  |${Cyan}Distro:${Nc}	"$Dstr""
-echo -e "${Purp}     _\  |${Cyan}Machine:${Nc}	"$Mchn""
-echo -e "${Purp}    /    |${Cyan}Uptime:${Nc}	"$UpTm""
-echo -e "${Purp}   /     |${Cyan}Packages:${Nc}	"$Pkgs""
-echo -e "${Purp}  /      |${Cyan}User:${Nc}		"$User""
-echo -e "${Purp} /   /|  |${Cyan}Home:${Nc}		"$Home""
-echo -e "${Purp}/___/ |__|${Cyan}Shell:${Nc}	"$Shll""
+echo -e "${Purp}    ██       ${Cyan}OS:${Nc} 		"$OSys"" 
+echo -e "${Purp}   ████      ${Cyan}Kernel:${Nc}  		 "$Kern""
+echo -e "${Purp}   █▒██      ${Cyan}Machine:${Nc}		 "$Mchn""
+echo -e "${Purp}    ████     ${Cyan}Uptime:${Nc}		 "$UpTm""
+echo -e "${Purp}   ██░░██    ${Cyan}Packages:${Nc}		 "$Pkgs""
+echo -e "${Purp}  ██░░░░██   ${Cyan}User:${Nc}		 "$User""
+echo -e "${Purp}▒▒█░░░░█▒▒▒  ${Cyan}Home:${Nc}		 "$Home""
+echo -e "${Purp} ▒▒█████▒▒   ${Cyan}Shell:${Nc}		 "$Shll""
+echo -e "${Purp}	     ${Cyan}Distro:${Nc}		 "$Dstr""
