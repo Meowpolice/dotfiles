@@ -11,15 +11,15 @@ UpTm=`uptime -p`
 OSys=`uname -o`
 Mchn=`uname -n`
 User=$USER
-Term=$TERM
+Home=$HOME
 Shll=$SHELL
 			    
-echo -e "${Purp}    ██       ${Cyan}OS:${Nc} 	         "$OSys"" 
+echo -e "${Purp}    ██       ${Cyan}OS:${Nc} 		"$OSys"" 
 echo -e "${Purp}   ████      ${Cyan}Kernel:${Nc}  		 "$Kern""
 echo -e "${Purp}   █▒██      ${Cyan}Machine:${Nc}		 "$Mchn""
 echo -e "${Purp}    ████     ${Cyan}Uptime:${Nc}		 "$UpTm""
 echo -e "${Purp}   ██░░██    ${Cyan}Packages:${Nc}		 "$Pkgs""
 echo -e "${Purp}  ██░░░░██   ${Cyan}User:${Nc}		 "$User""
-echo -e "${Purp}▒▒█░░░░█▒▒▒  ${Cyan}Terminal:${Nc}		 "$Term""
+echo -e "${Purp}▒▒█░░░░█▒▒▒  ${Cyan}Home:${Nc}		 "$Home""
 echo -e "${Purp} ▒▒█████▒▒   ${Cyan}Shell:${Nc}		 "$Shll""
 echo -e "${Purp}	     ${Cyan}Distro:${Nc}		 "$Dstr""
