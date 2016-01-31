@@ -4,7 +4,7 @@ shopt -s nullglob
 
 while :; do
 
-if [ $((RANDOM % 2)) == 0 ]; then
+if [ $((RANDOM % 3)) == 0 ]; then
 	cd /home/meowpolice/.wallpapers/pattern
 	files=()
 	for i in *.jpg *.png *.gif; do

@@ -24,7 +24,11 @@ else
 	if [ $((RANDOM %2)) == 0 ]; then
 		end='InSide ME'
 	else
-		end='is BRoke'
+		if [ $((RANDOM %2)) == 0 ]; then
+			end='iS broKKe'
+		else
+			end='PlSI NE ed h hlep'
+		fi
 	fi
 fi
 
