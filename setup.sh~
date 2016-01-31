@@ -15,7 +15,5 @@ ln -s ~/dotfiles/configs/.zshrc ~/
 mkdir -p ~/.config/herbstluftwm/
 ln -s ~/dotfiles/configs/herbstluftwm/autostart ~/.config/herbstluftwm/
 ln -s ~/dotfiles/configs/herbstluftwm/panel.sh ~/.config/herbstluftwm/
-mkdir -p ~/.config/termite/
-ln -s ~/dotfiles/configs/termite/config ~/.config/termite/config
 
-echo Done!
+echo Done, if you use st I have a config.h in the configs folder.
