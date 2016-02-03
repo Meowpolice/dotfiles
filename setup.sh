@@ -17,5 +17,6 @@ ln -s ~/dotfiles/configs/herbstluftwm/autostart ~/.config/herbstluftwm/
 ln -s ~/dotfiles/configs/herbstluftwm/panel.sh ~/.config/herbstluftwm/
 mkdir -p ~/.config/termite/
 ln -s ~/dotfiles/configs/termite/config ~/.config/termite/config
-
+mkdir ~/.config/compton
+ln -s ~/dotfiles/configs/compton.conf ~/
 echo Done!

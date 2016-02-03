@@ -1,2 +1,1 @@
-#run compton in background
-compton --config ~/.config/compton/compton.conf -b
+compton -F -i 0.9 -D 4 --config=/home/meowpolice/.config/compton/compton.conf -b

@@ -1,5 +1,6 @@
 clear
-Purp=`tput setaf 5`
+Gray=`tput setaf 7`
+Yell=`tput setaf 3`
 Cyan=`tput setaf 4``tput bold`
 Nc=`tput sgr0`
 
@@ -14,12 +15,12 @@ User=$USER
 Term=$TERM
 Shll=$SHELL
 			    
-echo -e "${Purp}    ██       ${Cyan}OS:${Nc} 	         "$OSys"" 
-echo -e "${Purp}   ████      ${Cyan}Kernel:${Nc}  		 "$Kern""
-echo -e "${Purp}   █▒██      ${Cyan}Machine:${Nc}		 "$Mchn""
-echo -e "${Purp}    ████     ${Cyan}Uptime:${Nc}		 "$UpTm""
-echo -e "${Purp}   ██░░██    ${Cyan}Packages:${Nc}		 "$Pkgs""
-echo -e "${Purp}  ██░░░░██   ${Cyan}User:${Nc}		 "$User""
-echo -e "${Purp}▒▒█░░░░█▒▒▒  ${Cyan}Terminal:${Nc}		 "$Term""
-echo -e "${Purp} ▒▒█████▒▒   ${Cyan}Shell:${Nc}		 "$Shll""
-echo -e "${Purp}	     ${Cyan}Distro:${Nc}		 "$Dstr""
+echo -e "${Gray}    ██       ${Cyan}OS:${Nc} 	         "$OSys"" 
+echo -e "${Gray}   ████      ${Cyan}Kernel:${Nc}  		 "$Kern""
+echo -e "${Gray}   █${Yell}█${Gray}██      ${Cyan}Machine:${Nc}		 "$Mchn""
+echo -e "${Gray}    ████     ${Cyan}Uptime:${Nc}		 "$UpTm""
+echo -e "${Gray}   ██${Nc}██${Gray}██    ${Cyan}Packages:${Nc}		 "$Pkgs""
+echo -e "${Gray}  ██${Nc}████${Gray}██   ${Cyan}User:${Nc}		 "$User""
+echo -e "${Yell}██${Gray}█${Nc}████${Gray}█${Yell}███  ${Cyan}Terminal:${Nc}		 "$Term""
+echo -e "${Yell} ██${Gray}█████${Yell}██   ${Cyan}Shell:${Nc}		 "$Shll""
+echo -e "${Gray}	     ${Cyan}Distro:${Nc}		 "$Dstr""

@@ -1,2 +1,2 @@
-~/scripts/compton.sh
 ~/scripts/wallpaper.sh
+~/scripts/compton.sh
