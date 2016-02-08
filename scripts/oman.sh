@@ -1,28 +1,32 @@
-if [ $((RANDOM %5)) == 0 ]; then
+if [ $((RANDOM %6)) == 0 ]; then
 	start='Pls tO help'
 else
-	if [ $((RANDOM %4)) == 0 ]; then
+	if [ $((RANDOM %5)) == 0 ]; then
 		start='OMANOMANOMMAN MY COMPuter'
 	else
-		if [ $((RANDOM %3)) == 0 ]; then
+		if [ $((RANDOM %4)) == 0 ]; then
 			start='help help I'
 		else
-			if [ $((RANDOM %2)) == 0 ]; then
+			if [ $((RANDOM %3)) == 0 ]; then
 				start='AAAaAaAAHh'
 			else
-				start='OnononoOno'
+				if [ $((RANDOM %2)) == 0 ]; then
+					start='OnononoOno'
+				else
+					start='StOpSTopSTop HELPO sTOP'
+				fi
 			fi
 		fi
 	fi
 fi
 
-if [ $((RANDOM %4)) == 0 ]; then
+if [ $((RANDOM %5)) == 0 ]; then
 	mid='EXPLODEineD'
 else
-	if [ $((RANDOM %2)) == 0 ]; then
+	if [ $((RANDOM %4)) == 0 ]; then
 		mid='COMPUTERed on FirE'
 	else
-		if [ $((RANDOM %2)) == 0 ]; then
+		if [ $((RANDOM %3)) == 0 ]; then
 			mid='TrAppeD insiDe'
 		else
 			if [ $((RANDOM %2)) == 0 ]; then
