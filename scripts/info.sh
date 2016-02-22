@@ -1,4 +1,10 @@
 clear
+a=`tput setaf 1`
+s=`tput setaf 2`
+d=`tput setaf 5`
+f=`tput setaf 6`
+g=`tput setaf 8`
+h=`tput setaf 9`
 Gray=`tput setaf 7`
 Yell=`tput setaf 3`
 Cyan=`tput setaf 4``tput bold`
@@ -15,6 +21,7 @@ User=$USER
 Term=$TERM
 Shll=$SHELL
 			    
+echo -e "		${a}██"${s}██"${Yell}██${Cyan}██${d}██${f}██${Gray}██${g}██${h}██" ${Nc} 
 echo -e "${Gray}    ██       ${Cyan}OS:${Nc} 	         "$OSys"" 
 echo -e "${Gray}   ████      ${Cyan}Kernel:${Nc}  		 "$Kern""
 echo -e "${Gray}   █${Yell}█${Gray}██      ${Cyan}Machine:${Nc}		 "$Mchn""
@@ -24,3 +31,4 @@ echo -e "${Gray}  ██${Nc}████${Gray}██   ${Cyan}User:${Nc}		 "$U
 echo -e "${Yell}██${Gray}█${Nc}████${Gray}█${Yell}███  ${Cyan}Terminal:${Nc}		 "$Term""
 echo -e "${Yell} ██${Gray}█████${Yell}██   ${Cyan}Shell:${Nc}		 "$Shll""
 echo -e "${Gray}	     ${Cyan}Distro:${Nc}		 "$Dstr""
+echo -e "		${a}██"${s}██"${Yell}██${Cyan}██${d}██${f}██${Gray}██${g}██${h}██" ${Nc}
